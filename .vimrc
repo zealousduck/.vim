@@ -43,6 +43,8 @@ let g:rainbow_conf = {
 \       'css': 0,
 \   }
 \}
+hi Visual term=Reverse ctermbg=0 guibg=SlateBlue
+hi Search term=Reverse ctermbg=0 guibg=SlateBlue
 
 " Accept additional vimrc files
 set exrc
@@ -55,6 +57,7 @@ set number
 set nowrap
 set relativenumber
 set hlsearch
+set incsearch
 set showcmd
 set title
 set cursorline
